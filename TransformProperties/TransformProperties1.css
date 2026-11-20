@@ -1,0 +1,22 @@
+.box{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: 200px;
+}
+.box:hover{
+  transform: scale(1.4);
+  /* transform: scale3d(3);
+   */
+   transform: scaleX(2);
+   transform: scaleY(3);
+   /* scalez is not visible because of the z axis */
+   transform: scaleZ(4);
+   transition: 1s;
+   transform: skew(300deg);
+   transform: rotate(3000%);
+   transform: rotateX(100%);
+   transform: rotateY(200%gg);
+   transform: rotateZ(300%);
+   transform: translate(300px);
+}

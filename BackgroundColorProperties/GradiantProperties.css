@@ -13,5 +13,4 @@ div{
 .conicGradiant{
   background:conic-gradient(white,lightblue,deepSkyBlue,DodgerBlue,CornflowerBlue,Royalblue,blue,darkblue,navy);
   box-shadow: 2px 2px 10px black;
-  
 }

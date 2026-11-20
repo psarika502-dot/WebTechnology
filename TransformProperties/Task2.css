@@ -1,0 +1,17 @@
+.parent{
+  height: 180vh;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.parent img{
+  height: 300px;
+  width: 300px;
+}
+.parent img:first-child:hover{
+  transform: rotateX(3600deg);
+  transition: 1s;
+}
+

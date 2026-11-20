@@ -1,0 +1,12 @@
+cretate an 10 array of an object (employees) which includes 
+Name, age, salary, deparment, hobbies, place, eid, company, gender, isMarried
+ 1) extract the emp with same age
+ 2) extract the emp whose deparment is same
+ 3) increase the salary 15% of employees whose having more than 50,000
+ 4) extract the married emp
+ 5) extract the all male emp and give them 25% of salary hike
+ 6) extract the all female emp and deduct thier 25% salary and afterwards increase by 50%
+ 7) add the experience key to the all emp based on their salary
+ 8) delete all married female emp
+ 9) sort the all emp based on their experience
+ 10) sort the emp in reverse order based on their ID

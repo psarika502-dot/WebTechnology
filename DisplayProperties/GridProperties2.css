@@ -1,0 +1,19 @@
+.parent{
+  height:100vh;
+  width:100%;
+  background-color: pink;
+  display: grid;
+  /* grid-template-columns: repeat(4,1fr);
+   */
+   /* it's makes a responsive */
+   grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+ /* the itmes will be center */
+  place-items: center;
+  row-gap: 80px;
+}
+.parent .child{
+  height:400px;
+  width:250px;
+  border: solid;
+  box-shadow: 2px 2px 2px gray;
+}

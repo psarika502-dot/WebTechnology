@@ -1,0 +1,18 @@
+/* *{
+  background-color: rgb(169, 214, 214);
+} */
+.style{
+  border:solid yellow;
+  
+}
+.newStyle{
+  border:solid red;
+  border-radius: 50%;
+}
+.body{
+  background-color: black;
+}
+.changeStyle{
+  color: red;
+  
+}

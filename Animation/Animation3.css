@@ -1,0 +1,42 @@
+#parent{
+  background-color: rgb(17, 35, 92);
+  height: 700px;
+  width: 1490px;
+}
+.box{
+  height: 20px;
+  width: 20px;
+  background-color: gray;
+  box-shadow: 2px 2px yellow;
+  animation-name: move;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  position: relative;
+}
+
+@keyframes move {
+    0%{
+    top: 0px; left: 0px;
+  }
+   10%{
+    top: 0px;
+   }
+  25%{
+    top: 0px; right: 0px;
+    background-color: yellow;
+  
+  }
+  50%{
+    top: 450px; left: 1198px;
+    border-radius: 50%;
+    transform: rotate(90deg);
+  }
+  75%{
+    left: 0px; top: 450px;
+    transform: rotate(90deg);
+  }
+  100%{
+    left: 0px; top: 0px;
+  }
+}

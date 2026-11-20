@@ -1,0 +1,99 @@
+.parent{
+  height:500px;
+  width: 800px;
+  /* border: solid rgb(106, 105, 105); */
+  margin: 100px 400px;
+  box-shadow: 2px 2px 2px 2px gray;
+  background-color: rgb(172, 191, 247);
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(4,1fr);
+  gap: 10px;
+}
+.parent .child{
+ /* border: solid rgb(139, 164, 239); */
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ background-color: rgb(190, 203, 243);
+}
+.parent .contact{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  height: 50px;
+  font-size: 30px;
+  color: rgb(8, 8, 137);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px black;
+
+  
+}
+.form-label{
+  grid-row-start: 4;
+  grid-row-end: 5;
+  height: 300px;
+  width: 2px;
+}
+.icon{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 300px;
+    height: 90px;
+}
+.username{
+  position: absolute;
+  top: 230px;
+  left: 450px;
+  font-size: 20px;
+}
+#name{
+  position: absolute;
+  top: 230px;
+  left: 560px;
+  font-size: 17px;
+}
+.email{
+  position: absolute;
+  top: 280px;
+  left: 450px;
+  font-size: 20px;
+}
+#email{
+  position: absolute;
+  top: 280px;
+  left: 560px;
+  font-size: 17px;
+}
+.password{
+  position: absolute;
+  top: 330px;
+  left: 450px;
+  font-size: 20px;
+}
+#Password{
+  position: absolute;
+  top: 330px;
+  left: 560px;
+  font-size: 17px;
+}
+button{
+  position: absolute;
+  top: 390px;
+  left: 560px;
+  width: 100px;
+  height: 30px;
+  font-size: 17px;
+}
+.fa-brands{
+  font-size: 30px;
+  color: rgb(8, 8, 137);
+}
+#message{
+ position: absolute;
+  top: 450px;
+  left: 746px;
+  width: 460px;
+  height: 130px;
+}
